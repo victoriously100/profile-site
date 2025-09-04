@@ -76,10 +76,12 @@ h2 {
   margin-bottom: 20px;
 }
 
-.job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+@media (min-width: 768px) {
+    .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 }
 
 footer {
