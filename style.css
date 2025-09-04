@@ -76,6 +76,15 @@ h2 {
   margin-bottom: 20px;
 }
 
+.job-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-details p {
+    margin-top: -10px; /* wrap company  */
+}
+
 @media (min-width: 768px) {  /* Lock in just for desktop view*/
     .job-header {
         display: flex;
@@ -84,10 +93,7 @@ h2 {
     }
 }
 
-.job-header strong {
-    display: block;
-    margin-top: 5px; /* Make company name appear underneath job title */
-}
+
 
 footer {
   background: #004080;
