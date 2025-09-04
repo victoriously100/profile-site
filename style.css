@@ -84,6 +84,11 @@ h2 {
     }
 }
 
+.job-header strong {
+    display: block;
+    margin-top: 5px; /* Make company name appear underneath job title */
+}
+
 footer {
   background: #004080;
   color: #fff;
