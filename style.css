@@ -76,7 +76,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {  /* Lock in just for desktop view*/
     .job-header {
         display: flex;
         justify-content: space-between;
