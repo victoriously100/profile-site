@@ -76,6 +76,12 @@ h2 {
   margin-bottom: 20px;
 }
 
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer {
   background: #004080;
   color: #fff;
