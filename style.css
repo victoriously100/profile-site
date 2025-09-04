@@ -79,7 +79,7 @@ h2 {
 .job-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 footer {
@@ -92,7 +92,7 @@ footer {
 
 /* Back to Top Button */
 #backToTop {
-  display: none; /* hidden by default */
+  display: none;
   position: fixed;
   bottom: 30px;
   right: 30px;
