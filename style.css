@@ -82,7 +82,7 @@ h2 {
 }
 
 .job-details p {
-    margin-top: -10px; /* wrap company  */
+    margin-top: -10px; /* wrap company name p tag */
 }
 
 @media (min-width: 768px) {  /* Lock in just for desktop view*/
